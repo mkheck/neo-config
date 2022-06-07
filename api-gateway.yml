@@ -3,7 +3,8 @@ zuul:
   # ignoredServices: '*'
   # MH: No longer used in current version
   routes:
-    production-service: /productions/**
+    production-service: /prod/**
+    person-service: /pers/**
     tmdb-service: /tmdb/**
     imdb-service: /imdb/**
     api-gateway: /gateway/**
